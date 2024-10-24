@@ -66,7 +66,7 @@ use warnings;
 use lib 'lib';
 use $project_name;
 
-print "Hello from $project_name!\n";
+print "Hello from $project_name!\\n";
 EOT
 close $script_fh;
 
