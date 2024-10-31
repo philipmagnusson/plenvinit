@@ -44,6 +44,24 @@ cd MyNewProject
 ./run bin/main.pl # Run main script
 ./run test # Run tests
 ```
+
+## Installing Packages
+
+```
+# Add requires to cpanfile e.g.
+requires 'Package::Name';
+
+# Install
+carton install
+```
+
+## Package Docs
+
+For packages installed with carton use: 
+```
+carton exec perldoc Parallel:ForkManager
+```
+
 ## Contributing
 
 Contributions are welcome. Please submit issues or pull requests.
